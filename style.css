@@ -41,13 +41,29 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: 3s;
 }
+
+/*soluzione*/
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: 1s;
 }
+
+/*soluzione*/
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
