@@ -233,18 +233,65 @@
         top: -10px;
     }
 
-    40% {
-        left: calc( 100% - 60px );
+    30% {
+        left: calc( 100% - 30px );
         top: -10px;
     }
 
-    65% {
+    45% {
+        left: calc( 100% - 30px );
+        top: 100%;
+    }
+
+    75% {
         left: 0;
-        top: 90%;
+        top: 100%;
+    }
+
+    95% {
+        left: -10px;
+        top: -10px;
     }
 
     100% {
         left: 10%;
         top: -10px;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: botboxflow 2s linear;
+}
+
+@keyframes botboxflow {
+
+    0% {
+        right: 20%;
+        bottom: -10px;
+    }
+
+    30% {
+        right: calc( 100% - 30px );
+        bottom: -10px;
+    }
+
+    45% {
+        right: calc( 100% - 30px );
+        bottom: 100%;
+    }
+
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+
+    95% {
+        right: -10px;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 20%;
+        bottom: -10px;
     }
 }
