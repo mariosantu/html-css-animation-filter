@@ -109,10 +109,25 @@
     filter: grayscale(0.5) sepia(0.8);
 }
 
+/*soluzione*/
 
 .ex-10-icon {
     font-size: 60px;
+    animation: rotate 2s linear infinite;
+    animation-direction: reverse;
 }
+
+@keyframes rotate {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+
+
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
