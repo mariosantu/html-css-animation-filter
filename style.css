@@ -179,3 +179,43 @@
     width: 60px;
     height: 20px;
 }
+
+/*soluzione ex-12*/
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: topboxflow 2s linear;
+}
+
+@keyframes topboxflow {
+
+    0% {
+        left: 10%;
+    }
+
+    40% {
+        left: calc( 100% - 60px );
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: botboxflow 2s linear;
+}
+
+@keyframes botboxflow {
+
+    0% {
+        right: 20%;
+    }
+
+    40% {
+        right: calc( 100% - 60px );
+    }
+
+    100% {
+        right: 20%;
+    }
+}
