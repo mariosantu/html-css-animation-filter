@@ -68,10 +68,48 @@
     width: 500px;
 }
 
+/*soluzione img 6*/
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/*soluzione img 7*/
+
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.5) sepia(1);
+}
+
+/*soluzione img 8*/
+
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: sepia(0.7);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
 }
+
+/*soluzione img 9 */
+
+.ex-9-img:hover {
+    transform: scale(1.5);
+    border-radius: 30px;
+    filter: grayscale(0.5) sepia(0.8);
+}
+
+
 .ex-10-icon {
     font-size: 60px;
 }
