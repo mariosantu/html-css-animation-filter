@@ -219,3 +219,32 @@
         right: 20%;
     }
 }
+
+/*soluzione ex-13*/
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: topboxflow 2s linear;
+}
+
+@keyframes topboxflow {
+
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+
+    40% {
+        left: calc( 100% - 60px );
+        top: -10px;
+    }
+
+    65% {
+        left: 0;
+        top: 90%;
+    }
+
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
